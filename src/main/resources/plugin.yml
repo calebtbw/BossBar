@@ -1,0 +1,7 @@
+name: BossBar
+version: ${project.version}
+main: me.calebtbw.bossbar.Main
+api-version: 1.16
+authors: [ CalebT ]
+description: Boss Bar Plugin
+website: http://calebtbw.me
