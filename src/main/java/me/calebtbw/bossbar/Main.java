@@ -15,7 +15,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new JoinListener(this),this);
 
-        BossBar bossBar = Bukkit.createBossBar(
+        bossBar = Bukkit.createBossBar(
                 ChatColor.GOLD + "SMP by BlazingLights courtesy of" + ChatColor.BLUE + "GGServers!",
                 BarColor.BLUE,
                 BarStyle.SOLID);
